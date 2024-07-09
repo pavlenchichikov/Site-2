@@ -140,3 +140,102 @@ footer .partners img {
     max-height: 50px;
     margin: 0 20px;
 }
+
+/*Block Why */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.icon
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.feature-card {
+    flex-basis: 30%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+.feature-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.feature-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.feature-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+.read-more {
+    color: #ff6b35;
+    text-decoration: none;
+    font-size: 14px;
+}
+.section-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.section-description {
+    text-align: center;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.service-card {
+    flex-basis: 30%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+    
+}
+.service-icon {
+    width: 80px;
+    margin-bottom: 20px;
+    width: 370px; 
+    height: 270px;
+}
+.service-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.service-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.learn-more-btn {
+    background-color: #ff6b35;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
